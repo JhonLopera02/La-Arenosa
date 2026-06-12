@@ -1,0 +1,192 @@
+{
+  "users": [
+    {
+      "name": "Jhon",
+      "lastName": "Lopera",
+      "email": "JhonLopera@gmail.com",
+      "password": "123456",
+      "role": [
+        "ADMIN"
+      ],
+      "id": 2
+    },
+    {
+      "name": "pepe",
+      "lastName": "Admin",
+      "email": "pepe@gmail.com",
+      "password": "123456",
+      "role": [
+        "USER"
+      ],
+      "id": 3
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Tela Algodón Estampado Floral (1 Metro)",
+      "descripcion": "Tela de algodón 100% de alta calidad, transpirable y suave. Ideal para confección de vestidos, blusas y manualidades.",
+      "precio": 18500,
+      "imagen": "https://images.unsplash.com/photo-1598048145816-3642c8d208ec?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Telas",
+      "stock": 100,
+      "esOferta": true,
+      "descuento": 10
+    },
+    {
+      "id": 2,
+      "nombre": "Tela Lino Texturizado Beige (1 Metro)",
+      "descripcion": "Lino puro texturizado en tono beige, perfecto para trajes, faldas y confección de verano.",
+      "precio": 24000,
+      "imagen": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Telas",
+      "stock": 50,
+      "esOferta": false,
+      "descuento": 0
+    },
+    {
+      "id": 3,
+      "nombre": "Tela Seda Brillante Rojo Carmesí (1 Metro)",
+      "descripcion": "Tela de seda importada con caída espectacular y brillo natural, ideal para vestidos de noche y lencería.",
+      "precio": 45000,
+      "imagen": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Telas",
+      "stock": 30,
+      "esOferta": true,
+      "descuento": 15
+    },
+    {
+      "id": 4,
+      "nombre": "Tela Denim Stretch Indigo (1 Metro)",
+      "descripcion": "Tela vaquera con elongación para mayor comodidad, ideal para jeans, chaquetas y bolsos.",
+      "precio": 22000,
+      "imagen": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Telas",
+      "stock": 80,
+      "esOferta": false,
+      "descuento": 0
+    },
+    {
+      "id": 5,
+      "nombre": "Cierre de Cremallera Metálico 20cm",
+      "descripcion": "Cremallera de latón de alta durabilidad en color negro, ideal para chaquetas, jeans y bolsos.",
+      "precio": 3500,
+      "imagen": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Cierres",
+      "stock": 120,
+      "esOferta": false,
+      "descuento": 0
+    },
+    {
+      "id": 6,
+      "nombre": "Botones de Madera Rústica 15mm x10",
+      "descripcion": "Pack de 10 botones de madera natural con acabado barnizado rústico y dos agujeros.",
+      "precio": 6000,
+      "imagen": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Botones",
+      "stock": 80,
+      "esOferta": false,
+      "descuento": 0
+    },
+    {
+      "id": 7,
+      "nombre": "Agujas para Máquina de Coser Singer x5",
+      "descripcion": "Set de 5 agujas universales de diferentes calibres para máquinas de coser caseras e industriales.",
+      "precio": 15000,
+      "imagen": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Agujas y Alfileres",
+      "stock": 40,
+      "esOferta": true,
+      "descuento": 5
+    },
+    {
+      "id": 8,
+      "nombre": "Hebilla Metálica Dorada 40mm",
+      "descripcion": "Hebilla de acero pulido chapada en oro para correas, cinturones y bolsos de cuero.",
+      "precio": 8500,
+      "imagen": "https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Hebillas",
+      "stock": 60,
+      "esOferta": false,
+      "descuento": 0
+    },
+    {
+      "id": 9,
+      "nombre": "Remaches de Presión Latón x50",
+      "descripcion": "Set de 50 remaches de presión metálicos inoxidables ideales para manualidades, cuero y confección.",
+      "precio": 18000,
+      "imagen": "https://images.unsplash.com/photo-1608962241551-7f91cc464736?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Broches Remaches y Ojaletes",
+      "stock": 30,
+      "esOferta": true,
+      "descuento": 15
+    },
+    {
+      "id": 10,
+      "nombre": "Cinta de Satén Rojo 25mm x10m",
+      "descripcion": "Rollo de cinta de raso brillante color rojo para adornos, costura creativa y empaques de regalo.",
+      "precio": 9500,
+      "imagen": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Cintas y Reatas",
+      "stock": 25,
+      "esOferta": false,
+      "descuento": 0
+    },
+    {
+      "id": 11,
+      "nombre": "Tijeras Profesionales de Modista 9\"",
+      "descripcion": "Tijeras de acero inoxidable forjado para corte de tela suave y preciso, empuñadura ergonómica.",
+      "precio": 35000,
+      "imagen": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Tijeras y Pinzas",
+      "stock": 15,
+      "esOferta": false,
+      "descuento": 0
+    },
+    {
+      "id": 12,
+      "nombre": "Hilos de Poliéster Set x12 Colores",
+      "descripcion": "Kit de 12 bobinas de hilo de poliéster resistente en colores variados para coser a mano o máquina.",
+      "precio": 22000,
+      "imagen": "https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Hilos y Cordones",
+      "stock": 35,
+      "esOferta": true,
+      "descuento": 10
+    },
+    {
+      "id": 13,
+      "nombre": "Deshebrador Cortahilos Metálico",
+      "descripcion": "Herramienta ergonómica de acero templado para descoser costuras y cortar hilos rápidamente.",
+      "precio": 4500,
+      "imagen": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Herramientas para la Confección",
+      "stock": 100,
+      "esOferta": false,
+      "descuento": 0
+    },
+    {
+      "id": 14,
+      "nombre": "Argollas Metálicas Soldadas 25mm x10",
+      "descripcion": "Pack de 10 argollas redondas soldadas de hierro niquelado brillante para correas y accesorios.",
+      "precio": 5500,
+      "imagen": "https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Herrajes",
+      "stock": 150,
+      "esOferta": false,
+      "descuento": 0
+    },
+    {
+      "id": 15,
+      "nombre": "Perlas Acrílicas Decorativas x100",
+      "descripcion": "Bolsa de 100 perlas acrílicas de color marfil brillante con perforación central para bisutería y bordados.",
+      "precio": 7900,
+      "imagen": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&auto=format&fit=crop&q=60",
+      "categoria": "Bisutería",
+      "stock": 90,
+      "esOferta": false,
+      "descuento": 0
+    }
+  ],
+  "compras": []
+}
